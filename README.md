@@ -1,6 +1,6 @@
 # Tareas
 
-## Simple app sinatra para almacenar notas.
+## Simple app sinatra para almacenar tareas.
 
 Aplicacion Sinatra que usa DataMapper como ORM y PostgreSQL como BD.
 
