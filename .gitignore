@@ -1,0 +1,7 @@
+#ignorando otros archivos innecesarios.
+doc/
+*.swp
+*~
+.projects
+.DS_Store
+/vendor/cache

@@ -1,0 +1,19 @@
+<section id="add">
+  <form action="/" method="post" accept-charset="utf-8">
+    <textarea name="content" placeholder="Que tiene que hacer?"></textarea>
+    <input type="submit" value="Guardar." />
+  </form>
+</section>
+
+<% @notes.each do |note| %>
+  <article <%= 'class="complete"' if note.complete %>>
+    <p>
+      <%=h note.content %>
+      <span><a href="/<%= note.id %>">[editar]</a></span>
+    </p>
+    <p class="links">
+      <a href="/<%= note.id %>/complete">&#10003;</a>
+    </p>
+    <p class="meta">Creado: <%= note.created_at %></p>
+  </article>
+<% end %>
