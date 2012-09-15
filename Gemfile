@@ -1,7 +1,7 @@
 source :rubygems
 gem "sinatra"
 gem "data_mapper"
-gem "thin"
+gem "unicorn"
 gem "builder"
 gem "sinatra-flash"
 gem "sinatra-redirect-with-flash"
