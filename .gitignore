@@ -5,3 +5,4 @@ doc/
 .projects
 .DS_Store
 /vendor/cache
+*.db
